@@ -1,4 +1,10 @@
+
+For development
 ```bash
-apt-get install gpiod libgpiod-dev libgpiod-doc
-apt install cmake wiringpi librsvg
+apt install cmake gpiod libgpiod-dev libgpiod-doc
+```
+
+For runtime:
+```bash
+apt install libgpiod2 libfreeimage3
 ```

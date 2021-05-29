@@ -1,13 +1,11 @@
 #pragma once
 
-#include "stdint.h"
-
-// Display resolution
-#define EPD_2IN13B_V3_WIDTH       104
-#define EPD_2IN13B_V3_HEIGHT      212
-
+#include <cstdint>
 #include <vector>
 
+// Display resolution
+static constexpr uint16_t EPD_2IN13B_V3_WIDTH = 104;
+static constexpr uint16_t EPD_2IN13B_V3_HEIGHT = 212;
 
 enum class ImageColor : uint8_t {
     White,

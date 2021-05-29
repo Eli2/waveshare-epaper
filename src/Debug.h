@@ -40,6 +40,7 @@
 #define Debug(__info,...) printf("Debug: " __info,##__VA_ARGS__)
 
 
+#define LogError(__info,...) fprintf(stderr, "ERROR: " __info "\n",##__VA_ARGS__)
 #define LogInfo(__info,...) printf(__info "\n",##__VA_ARGS__)
 
 
